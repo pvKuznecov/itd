@@ -1,0 +1,10 @@
+footer {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 5vh;
+    position: fixed;
+    bottom: 0;
+    padding: .5rem 1rem;
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
