@@ -8,6 +8,9 @@ header {
     position: fixed;
     top: 0;
     padding: .5rem 1rem;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.54);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.54);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.54);
 }
 
 ul {
@@ -22,8 +25,14 @@ li {
 nav a {
     font-weight: bold;
     color: rgb(143, 75, 212);
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+        opacity: .8;
+    }
 }
   
 nav a.router-link-exact-active {
     color: #42b983;
+    text-decoration: none;
 }

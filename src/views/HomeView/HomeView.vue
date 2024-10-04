@@ -8,6 +8,11 @@ export default {
     name: 'HomeView',
     components: {
         HelloWorld
-    }
+    },
+    data() {
+        return {
+            msg: 'Привет, мир!<br>Как дела?',
+        }        
+    },
 }
 </script>
