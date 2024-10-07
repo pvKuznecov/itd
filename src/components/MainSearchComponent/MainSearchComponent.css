@@ -1,0 +1,23 @@
+.main_search {
+    min-width: 99%;
+    max-width: 99%;
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    padding: .5rem .2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_search input {
+    min-width: 90%;
+    max-width: 90%;
+    border-radius: 10px 0 0 10px;
+}
+
+.main_search button {
+    min-width: 10%;
+    max-width: 10%;
+    border-radius: 0 10px 10px 0;
+    background-color: #42b983;
+    text-transform: uppercase;
+}
